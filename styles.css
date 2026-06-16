@@ -251,9 +251,70 @@ body {
   color: #1e293b;
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
   transition: 0.2s ease;
+  text-decoration: none;
 }
 
 .extra-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+.page-footer {
+  margin-top: 80px;
+  padding: 20px 40px;
+  border-top: 3px solid #ef4444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+}
+
+.footer-logo {
+  width: 180px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 12px;
+}
+
+.page-footer .preview-thumb {
+  width: 55px;
+  height: 55px;
+  background-size: 45px;
+}
+
+/* ===========================
+   EEVE PAGE LAYOUT
+=========================== */
+.eevee-container {
+  max-width: 900px;
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.eevee-image {
+  width: 260px;
+  height: 260px;
+  image-rendering: pixelated;
+}
+
+.eevee-text-box {
+  max-width: 500px;
+}
+
+.eevee-text-box h1 {
+  margin: 0 0 12px;
+  font-size: 2rem;
+}
+
+.eevee-text-box p {
+  line-height: 1.6;
+  color: #374151;
 }
